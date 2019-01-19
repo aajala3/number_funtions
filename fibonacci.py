@@ -9,7 +9,7 @@ Created on Thu Jan 17 20:18:27 2019
 # Afis Ajala
 # Department of Phyhsics
 # University of Houston, Houston, TX
-# Fibonacci number using a numpy array
+# This function generates the nth Fibonacci numbers using a numpy array
 def fibocalc(n):
     import numpy as np
     fibNum = np.zeros(n+1,dtype=np.int64)
@@ -24,10 +24,6 @@ def fibocalc(n):
             fibNum[i] = fibNum[i-2] + fibNum[i-1]
         result = fibNum[n]      
     return result
-
-#%%
-fiboNumStore = fibocalc_v2(100)
-fiboNumStore
 
 
 
