@@ -1,2 +1,2 @@
 # number_funtions
-This function generates the nth Fibonacci number
+The number_functions folder contains a series of number functions. fibnacci.py generates the nth Fibonacci number.
